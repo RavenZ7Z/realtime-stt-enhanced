@@ -125,6 +125,16 @@ Packaging mode: `onedir` (recommended).
 
 Pre-built Windows executable is available in the Releases section.
 
+Enhancements:
+\- Sentence-level segmentation (newline per sentence)
+\- Timestamp toggle (instant re-render of transcript)
+\- Pause/resume without breaking the recording session
+\- TXT export follows current timestamp display state
+
+Due to GitHub release file size limits, this package does not include ASR model files.
+
+Please download models from the original project
+
 ## Attribution
 
 This project is based on the original repository:
