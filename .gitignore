@@ -1,0 +1,13 @@
+.venv/
+output/
+dist/
+build/
+__pycache__/
+*.pyc
+*.spec
+
+# Ignore models (large files)
+onnx/*
+!onnx/.keep
+# ffmpeg binaries are large; do not commit
+ffmpeg/*.exe
